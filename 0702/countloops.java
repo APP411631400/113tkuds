@@ -7,12 +7,12 @@ public class countloops {
         int count = 0;
 
         for (int i = 1; i <= n; i++) {
-            System.out.println("第 " + i + " 次迴圈");
+            System.out.println("第 " + i + " 次迴圈,sum = "+ sum +"+"+ i);
             sum += i;     // 加總（可選）
             count++;      // 計次
         }
 
-        System.out.println("總共執行了 " + count + " 次");
-        System.out.println("sum = " + sum);  // 如果你想知道加總結果
+        System.out.println("總和為: " + sum);
+        System.out.println("加法執行了 " + count +"次");  // 如果你想知道加總結果
     }
 }
