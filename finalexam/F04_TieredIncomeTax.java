@@ -11,12 +11,12 @@ public class F04_TieredIncomeTax {
         for (int i = 0; i < n; i++) {
             double income = Double.parseDouble(sc.nextLine());
             double tax = calculateTax(income);
-            System.out.printf("Tax: %.2f%n", tax);
+            System.out.printf("Tax: $%.2f%n", tax);
             totalTax += tax;
         }
 
         double average = totalTax / n;
-        System.out.printf("Average: %.2f%n", average);
+        System.out.printf("Average: $%.2f%n", average);
         sc.close();
     }
 
